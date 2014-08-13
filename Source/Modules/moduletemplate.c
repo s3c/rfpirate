@@ -2,41 +2,38 @@
  * moduletemplate.c
  *
  * Created: 2014/06/17 10:46:53 AM
- *  Author: Chris
+ *  Author: jstephenson
  */ 
 
 #include "module.h"
 
-//int templateinit(void *initparam);
-int templatelcdcall(void *initparam);
-int templateprocess(void *initparam);
-int templatecleanup(void *initparam);
+void templateInit(void);
+void templateLcdCall(void);
+void templateProcess(void);
+void templateCleanup(void);
 
-rfmod modtemplate = {
+rfModuleS modTemplateSM = {
 	RTIDLE,
+	MODIDTEMPLATE,
 	"templatemodule",
-	//templateinit,
-	templatelcdcall,
-	templateprocess,
-	templatecleanup
+	templateInit,
+	templateLcdCall,
+	templateProcess,
+	templateCleanup
 };
 
-/*int templateinit(void *initparam){
+void templateInit(void){
 	
-	return 0;
-}*/
-
-int templatelcdcall(void *initparam){
-	
-	return 0;
 }
 
-int templateprocess(void *initparam){
+void templateLcdCall(void){
 	
-	return 0;
 }
 
-int templatecleanup(void *initparam){
+void templateProcess(void){
 	
-	return 0;
+}
+
+void templateCleanup(void){
+	
 }
