@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0  Date: Thu 22 May 2014 09:33:36 SAST
+#
+$CMP 25LCXXXX
+D 25LC spi eeprom
+$ENDCMP
+#
+$CMP DS1307
+D I2C Real time clock
+$ENDCMP
+#
+$CMP MCP112
+D Voltage detector
+$ENDCMP
+#
+$CMP MCP1802
+D LDO voltage regulator
+$ENDCMP
+#
+$CMP MCP73832
+D MCP73831/2 single cell LiPo charger
+$ENDCMP
+#
+#End Doc Library
