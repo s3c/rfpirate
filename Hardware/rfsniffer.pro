@@ -1,4 +1,4 @@
-update=Tue 02 Sep 2014 10:09:45 SAST
+update=Tue 02 Sep 2014 13:50:29 SAST
 version=1
 last_client=cvpcb
 [general]
@@ -99,16 +99,15 @@ LibName4=pin_array
 LibName5=divers
 LibName6=smd_capacitors
 LibName7=smd_resistors
-LibName8=smd_crystal&oscillator
-LibName9=smd_dil
-LibName10=smd_transistors
-LibName11=libcms
-LibName12=display
-LibName13=led
-LibName14=dip_sockets
-LibName15=pga_sockets
-LibName16=valves
-LibName17=ms3clibs
+LibName8=smd_transistors
+LibName9=libcms
+LibName10=display
+LibName11=led
+LibName12=dip_sockets
+LibName13=pga_sockets
+LibName14=valves
+LibName15=ms3clibs
+LibName16=Crystals_RevB_20Apr2013
 LibDir=Libs
 [cvpcb]
 version=1

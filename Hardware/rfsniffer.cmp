@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Tue 02 Sep 2014 10:25:38 SAST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 04 Sep 2014 11:44:44 SAST
 
 BeginCmp
 TimeStamp = /537DACB5;
 Reference = 4.7u1;
 ValeurCmp = INDUCTOR;
-IdModule  = ;
+IdModule  = LQH44P;
 EndCmp
 
 BeginCmp
@@ -60,7 +60,7 @@ BeginCmp
 TimeStamp = /533E7941;
 Reference = C7;
 ValeurCmp = 4.7uF;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -81,14 +81,14 @@ BeginCmp
 TimeStamp = /537DB686;
 Reference = C10;
 ValeurCmp = 4.7uF;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /533E8978;
 Reference = C11;
 ValeurCmp = 4.7uF;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -102,7 +102,7 @@ BeginCmp
 TimeStamp = /537DBEA2;
 Reference = C13;
 ValeurCmp = 10uF;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -165,7 +165,7 @@ BeginCmp
 TimeStamp = /533E7876;
 Reference = CON1;
 ValeurCmp = USB-MINI-B;
-IdModule  = ;
+IdModule  = USB_MINI_B;
 EndCmp
 
 BeginCmp
@@ -263,7 +263,7 @@ BeginCmp
 TimeStamp = /54044520;
 Reference = IC1;
 ValeurCmp = ATMEGA128A-A;
-IdModule  = TQFP64;
+IdModule  = TQFP_64;
 EndCmp
 
 BeginCmp
@@ -298,7 +298,7 @@ BeginCmp
 TimeStamp = /53EFB082;
 Reference = P1;
 ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = S2B-XH-A;
 EndCmp
 
 BeginCmp
@@ -851,21 +851,21 @@ BeginCmp
 TimeStamp = /5367F63C;
 Reference = U11;
 ValeurCmp = OPTO8;
-IdModule  = ;
+IdModule  = SO8E;
 EndCmp
 
 BeginCmp
 TimeStamp = /533E9BC6;
 Reference = X1;
 ValeurCmp = CRYSTAL;
-IdModule  = ;
+IdModule  = TSX-3225;
 EndCmp
 
 BeginCmp
 TimeStamp = /533F9368;
 Reference = X2;
 ValeurCmp = CRYSTAL;
-IdModule  = ;
+IdModule  = LFXTAL002997;
 EndCmp
 
 EndListe
