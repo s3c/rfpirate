@@ -2152,7 +2152,7 @@
   )
 
   (module SM0805 (layer F.Cu) (tedit 5091495C) (tstamp 54400409)
-    (at 229.616 126.238)
+    (at 229.616 128.27)
     (path /5367CE29)
     (attr smd)
     (fp_text reference R51 (at 0 -0.3175) (layer F.SilkS)
@@ -2184,7 +2184,7 @@
   )
 
   (module SM0805 (layer F.Cu) (tedit 5091495C) (tstamp 54400416)
-    (at 229.616 128.27)
+    (at 229.616 126.238)
     (path /5367CE1A)
     (attr smd)
     (fp_text reference R50 (at 0 -0.3175) (layer F.SilkS)

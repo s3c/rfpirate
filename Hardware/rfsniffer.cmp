@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 04 Sep 2014 11:44:44 SAST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 23 Oct 2014 20:40:30 SAST
 
 BeginCmp
 TimeStamp = /537DACB5;
@@ -162,6 +162,13 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /54494B70;
+Reference = C22;
+ValeurCmp = C;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /533E7876;
 Reference = CON1;
 ValeurCmp = USB-MINI-B;
@@ -227,13 +234,6 @@ EndCmp
 BeginCmp
 TimeStamp = /533EA506;
 Reference = D9;
-ValeurCmp = LED;
-IdModule  = LED-1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /53EF9B96;
-Reference = D10;
 ValeurCmp = LED;
 IdModule  = LED-1206;
 EndCmp
@@ -326,12 +326,19 @@ BeginCmp
 TimeStamp = /54043C5E;
 Reference = P5;
 ValeurCmp = CONN_4;
-IdModule  = pin_array_4x2;
+IdModule  = PIN_ARRAY_4x1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5367F813;
 Reference = P6;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5446A2B8;
+Reference = P7;
 ValeurCmp = CONN_2;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
@@ -344,15 +351,43 @@ IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
-TimeStamp = /53EFBAE6;
+TimeStamp = /5410B1AC;
 Reference = Q2;
-ValeurCmp = BC817;
+ValeurCmp = BC807;
 IdModule  = SOT23EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /53EFBACF;
 Reference = Q3;
+ValeurCmp = BC817;
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5410B1C3;
+Reference = Q4;
+ValeurCmp = BC807;
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54391E83;
+Reference = Q5;
+ValeurCmp = BC817;
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /543D57AE;
+Reference = Q6;
+ValeurCmp = BC807;
+IdModule  = SOT23EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /543FF06E;
+Reference = Q7;
 ValeurCmp = BC817;
 IdModule  = SOT23EBC;
 EndCmp
@@ -484,9 +519,9 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53EF9B9C;
+TimeStamp = /543FF07D;
 Reference = R19;
-ValeurCmp = 330;
+ValeurCmp = R;
 IdModule  = SM0805;
 EndCmp
 
@@ -584,7 +619,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53EFBAEE;
 Reference = R33;
-ValeurCmp = 330;
+ValeurCmp = 4.7k;
 IdModule  = SM0805;
 EndCmp
 
@@ -605,7 +640,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53EFBAFD;
 Reference = R36;
-ValeurCmp = 330;
+ValeurCmp = 60;
 IdModule  = SM0805;
 EndCmp
 
@@ -719,6 +754,41 @@ TimeStamp = /53680EEF;
 Reference = R52;
 ValeurCmp = 10k;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5410B1FB;
+Reference = R53;
+ValeurCmp = 4.7k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54391EA1;
+Reference = R54;
+ValeurCmp = 4.7k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54391E92;
+Reference = R55;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /543D57BD;
+Reference = R56;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /543FF0B4;
+Reference = SP1;
+ValeurCmp = SPEAKER;
+IdModule  = BUZZER_12MM;
 EndCmp
 
 BeginCmp
